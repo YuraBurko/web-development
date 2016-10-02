@@ -1,10 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>WEB</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Development Y_B</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" href="css/mobile.css" type="text/css">
+	
 </head>
 <body>
-    
+	<nav id="header" class="header">
+		<div class="containerr">
+			<div class="navbar-header"><h1><a href="#">Yura Burko</a></h1></div>
+			<div class="burger"></div>
+			<div class="clear-mobile"></div>
+			<ul class="nav">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<ul class="nav-brg">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</div>
+	<div class="clear"></div>
+	<hr>
+	</nav>
+	<div class="first-section">
+			<div class="text-container">
+				<h2>HI!<br> I`M YURA BURKO<br> WELCOME TO MY WEBSITE</h2>
+				<p>I'm <strong>Yaroslav Stefanyshyn</strong>, and I'm a Lviv-based Web-Developer. I like to design and 	code. I have a passion for web design and love to create for web and mobile devices.</p>
+			</div>
+	</div>
+	<hr size="10px">
+	<div class="about" id="about">
+		<h2>About</h2>
+		<div class="about-img-cnt">
+		<img src="img/SAW_7415.jpg" alt="my photo" id="myimg">
+		</div>
+		<div class="about-text-cnt">
+		<h3>What I can do</h3>
+		<h4>Design what you want</h4>
+
+		<p>I like to keep it simle, my goasl are to focus on typography, content and conveing the message that you want to send</p>
+		<h4>Develop what you need</h4>
+
+        <p>I am a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+
+		</div>
+		<div class="clear"></div>
+		<h2 id="th2">Technologies I know</h2>
+		<div class="tehnologi"><img src="img/html5logo.jpg" alt="html 5" class="logoimg"></div>
+		<div class="tehnologi"><img src="img/css3logo.jpg" alt="css 3" class="logoimg" id="css3"></div>
+		<div class="tehnologi"><img src="img/jslogo.png" alt="javascript" class="logoimg" ></div>
+		<div class="clear"></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="mycontact" id="contactme">
+		      <h1>Contact Me</h1>
+			<div class="contact-form">
+				<form class="left">
+					    	    <p class="comment-form-author"><label for="name">Your Name:</label>
+					    	    	<input type="text" class="textbox" id="name" value="Enter your name here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name here...';}">
+						    	</p>
+						        <p class="comment-form-author"><label for="email">Email:</label>
+						     	   <input type="text" class="textbox" id="email" value="Enter your email here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						        </p>
+						        <p class="comment-form-author"><label for="msg">Message:</label>
+						    		<textarea id="msg" value="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message here...</textarea>
+						        </p>
+						        <input type="submit" id="submit" value="Submit">
+					        </form>
+				
+	 			
+                 	<div class="right">
+	 			    <h4>My location</h4>
+				    <p>Lviv, Ukraine</p><br>
+				    <br>
+				    <h4>Email</h4>
+				    <p>yura_burko@mail.ru</p><br>
+		   		    <h4>Phone</h4>
+				    <p>+30632787756</p><br>
+				    
+				</div>
+					<div class="clearfix"></div>
+			</div>
+			
+		</div>
+	
+	
+
 </body>
 </html>
