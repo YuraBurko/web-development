@@ -15,6 +15,8 @@ a{
 h2{
 	font-size: 24px;
 	padding: 20px;
+	
+	
 }
 h3{
 	font-size:19px;
@@ -58,6 +60,7 @@ li{
 }
 .clear{
 	clear: both;
+	
 }
 .first-section{
 	height: 670px;
@@ -73,6 +76,7 @@ li{
 	font-weight: 700;
 	font-size: 50px;
 	color: black;
+	opacity: .8;
 	
 	
 }
@@ -83,6 +87,7 @@ li{
 	font-size: 18px;
 	max-width: 80%;
 	color: black;
+	opacity: .8;
 	
 }
 .text-container{
@@ -90,13 +95,13 @@ li{
 	margin-top: 200px;
 	font-size: 18px;
 	width: 100%;
-	
+	color: #FF9900;
 	
 }
 .about{
 	width:100%;
 	text-align:center; 
-	background-image: url('../img/myfon3.jpg');
+	background-image: url('../img/web.jpg');
 	color: #FF9900;
 	
 }
@@ -104,8 +109,8 @@ li{
 	max-width:500px;
 	width:100%;
 	height:auto;
-	border-radius:80px;
-	border: 5px solid white;
+	border-radius:360px;
+	border: 1px solid white;
 	
 	
 }
@@ -124,7 +129,8 @@ li{
 	
 }
 .about-text-cnt{
-	padding:0 50px;
+	padding: 20px;
+	font-size: 20px;
 	
 }
 .about-text-cnt p{
@@ -136,9 +142,12 @@ li{
 	
 }
 #th2{
-	background-color:white;
+background-color: #006363;
+
+	
 }
 .tehnologi{
+	margin-top: 15px;
 	width:33.333%;
 	height:320px;
 	max-width:100%;
