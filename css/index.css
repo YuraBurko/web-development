@@ -33,7 +33,7 @@ h4{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	max-width: 1000px;
 	text-transform: uppercase;
 	z-index: 99999;
 	opacity: 0.7;
@@ -305,3 +305,5 @@ p.comment-form-author {
     font-size: 18px;
     
 }
+
+@media ()
